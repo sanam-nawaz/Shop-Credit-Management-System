@@ -25,7 +25,7 @@ The project is organized for modularity and clarity:
 
 ## 5. How to Run
 1.  **Database**: Execute the script in `/db/shop_db.sql` using MySQL Workbench.
-2. **Connection**: Ensure your MySQL password in `DBConnection.java` matches your local setup (currently: `S.a.n._.1.2.3.`).
+2. **Connection**: Ensure your MySQL password in `DBConnection.java` matches your local setup.
 3. **Dependencies**: Include the `mysql-connector-j` JAR file in your project classpath.
 4. **Compile & Run**:
 * `javac *.java`
