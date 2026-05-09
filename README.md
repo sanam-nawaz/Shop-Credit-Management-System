@@ -23,6 +23,25 @@ The project is organized for modularity and clarity:
 * **Polymorphism**: The `getName()` method is overridden in the `Customer` class to provide specific behavior.
 * **Data Persistence**: Uses JDBC to ensure all transaction data is saved in a relational database.
 
+
+## Features
+- Add and manage customers
+- Store product details
+- Record customer borrow transactions
+- Record payment transactions
+- Maintain customer credit ledger
+- Save data using MySQL database
+- Generate organized transaction records
+
+## Technologies Used
+- Java
+- JDBC
+- MySQL
+- MySQL Workbench
+- GitHub
+- Object-Oriented Programming Concepts
+
+
 ## 5. How to Run
 1.  **Database**: Execute the script in `/db/shop_db.sql` using MySQL Workbench.
 2. **Connection**: Ensure your MySQL password in `DBConnection.java` matches your local setup.
@@ -35,3 +54,22 @@ The project is organized for modularity and clarity:
 ## 6. Project Links
 * **GitHub Repository**: https://github.com/sanam-nawaz/Shop-Credit-Management-System
 * **YouTube Demo**: 
+
+Shop-Credit-Management-System/
+├── db/
+│   └── shop_db file.sql       # Database schema and initial data
+├── lib/
+│   └── mysql-connector-j-9.7.0.jar  # JDBC Driver for MySQL connection
+├── src/
+│   ├── Credit.java            # Model class for Credit records
+│   ├── CreditDAO.java         # Data Access Object for Credit table
+│   ├── Customer.java          # Model class (Extends Person)
+│   ├── CustomerDAO.java       # Data Access Object for Customer table
+│   ├── DBConnection.java      # Singleton class for Database connectivity
+│   ├── MainApp.java           # Main Entry Point & GUI (Java Swing)
+│   ├── Person.java            # Abstract Base Class (OOP Abstraction)
+│   ├── Product.java           # Model class for Inventory items
+│   ├── ProductDAO.java        # Data Access Object for Product table
+│   ├── Sale.java              # Model class for Sales transactions
+│   └── SalesDAO.java          # Data Access Object for Sales table
+└── README.md                  # Project documentation and instructions
