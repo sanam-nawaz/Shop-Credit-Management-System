@@ -43,12 +43,35 @@ The project is organized for modularity and clarity:
 
 
 ## 5. How to Run
-1.  **Database**: Execute the script in `/db/shop_db.sql` using MySQL Workbench.
-2. **Connection**: Ensure your MySQL password in `DBConnection.java` matches your local setup.
-3. **Dependencies**: Include the `mysql-connector-j` JAR file in your project classpath.
-4. **Compile & Run**:
-* `javac *.java`
-* `java MainApp`
+
+### Requirements
+- JDK 17 or above
+- MySQL Server
+- MySQL Workbench
+
+### Database Setup
+1. Open MySQL Workbench.
+2. Run the SQL script located in `/db/shop_db.sql`.
+   - This script will automatically:
+     - Create the `shop_db` database
+     - Create all required tables
+     - Insert any initial data (if included)
+3. Ensure MySQL server is running before executing the script.
+4. Update MySQL username and password in `DBConnection.java` according to your local setup.
+
+### Dependencies
+- Include `mysql-connector-j-9.7.0.jar` in the project classpath.
+
+### Compile & Run
+1. Open terminal in the project root folder.
+2. Navigate to source folder:
+   `cd src`
+
+3. Compile:
+   `javac -cp ".;../lib/mysql-connector-j-9.7.0.jar" *.java`
+
+4. Run:
+   `java -cp ".;../lib/mysql-connector-j-9.7.0.jar" MainApp`
 
 
 ## 6. Project Links
