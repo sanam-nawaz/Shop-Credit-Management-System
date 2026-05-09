@@ -25,8 +25,12 @@ The project is organized for modularity and clarity:
 
 ## 5. How to Run
 1.  **Database**: Execute the script in `/db/shop_db.sql` using MySQL Workbench.
-2.  **Configuration**: Open `DBConnection.java` and update the `PASSWORD` field to match your local MySQL password.
-3.  **Execution**: Run `MainApp.java` to launch the console-based menu system.
+2. **Connection**: Ensure your MySQL password in `DBConnection.java` matches your local setup (currently: `S.a.n._.1.2.3.`).
+3. **Dependencies**: Include the `mysql-connector-j` JAR file in your project classpath.
+4. **Compile & Run**:
+* `javac *.java`
+* `java MainApp`
+
 
 ## 6. Project Links
 * **GitHub Repository**: https://github.com/sanam-nawaz/Shop-Credit-Management-System
