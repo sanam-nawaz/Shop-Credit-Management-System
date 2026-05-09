@@ -29,5 +29,5 @@ The project is organized for modularity and clarity:
 3.  **Execution**: Run `MainApp.java` to launch the console-based menu system.
 
 ## 6. Project Links
-* **GitHub Repository**: 
+* **GitHub Repository**: https://github.com/sanam-nawaz/Shop-Credit-Management-System
 * **YouTube Demo**: 
