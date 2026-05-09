@@ -55,21 +55,23 @@ The project is organized for modularity and clarity:
 * **GitHub Repository**: https://github.com/sanam-nawaz/Shop-Credit-Management-System
 * **YouTube Demo**: 
 
+### 7. Project Structure
+```text
 Shop-Credit-Management-System/
 ├── db/
-│   └── shop_db file.sql       # Database schema and initial data
+│   └── shop_db file.sql
 ├── lib/
-│   └── mysql-connector-j-9.7.0.jar  # JDBC Driver for MySQL connection
+│   └── mysql-connector-j-9.7.0.jar
 ├── src/
-│   ├── Credit.java            # Model class for Credit records
-│   ├── CreditDAO.java         # Data Access Object for Credit table
-│   ├── Customer.java          # Model class (Extends Person)
-│   ├── CustomerDAO.java       # Data Access Object for Customer table
-│   ├── DBConnection.java      # Singleton class for Database connectivity
-│   ├── MainApp.java           # Main Entry Point & GUI (Java Swing)
-│   ├── Person.java            # Abstract Base Class (OOP Abstraction)
-│   ├── Product.java           # Model class for Inventory items
-│   ├── ProductDAO.java        # Data Access Object for Product table
-│   ├── Sale.java              # Model class for Sales transactions
-│   └── SalesDAO.java          # Data Access Object for Sales table
-└── README.md                  # Project documentation and instructions
+│   ├── Credit.java
+│   ├── CreditDAO.java
+│   ├── Customer.java
+│   ├── CustomerDAO.java
+│   ├── DBConnection.java
+│   ├── MainApp.java
+│   ├── Person.java
+│   ├── Product.java
+│   ├── ProductDAO.java
+│   ├── Sale.java
+│   └── SalesDAO.java
+└── README.md
