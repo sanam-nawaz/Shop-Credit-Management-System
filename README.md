@@ -76,7 +76,7 @@ The project is organized for modularity and clarity:
 
 ## 6. Project Links
 * **GitHub Repository**: https://github.com/sanam-nawaz/Shop-Credit-Management-System
-* **YouTube Demo**: 
+* **YouTube Demo**: https://drive.google.com/file/d/1nsp7l0NHH1PQUgpUakR7Yn2ZkGPsghjg/view?usp=drive_link
 
 ### 7. Project Structure
 ```text
